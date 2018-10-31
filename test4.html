@@ -1,0 +1,361 @@
+<html>
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEWS: ILGE Subscription Management</title>
+    <meta name="description" content="ILGE Subscription Management ILGE is een toonaangevende speler op het gebied van abonnementen-beheer, online content management en collectie adviezen op de"/>
+    <meta name="author" content="ILGE">
+    <meta property="og:locale" content="nl-NL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ILGE Subscription Management, uw makkelijkste weg naar abonnementen" />
+    <meta property="og:description" content="ILGE Subscription Management ILGE is een toonaangevende speler op het gebied van abonnementen-beheer, online content management en collectie adviezen op de" />
+    <meta property="og:url" content="https://ilge.eu/" />
+    <meta property="og:site_name" content="ILGE Subscription Management" />
+    <link rel="canonical" href="https://ilge.eu/" />
+
+    <!-- Bootstrap Version 4 CSS -->
+    <link rel="stylesheet" href="bs4_css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" id="main-css"  href="pcss/style.css"/>
+
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="pcss/language-selector.css?v=3.2.2"/>
+    <!-- <link rel="stylesheet" id="carousel-css"  href="pcss/carousel.css"/> -->
+    <style> /* slider carousel icin */
+    .lblue{color:#0070ba;}
+    .dblue{color:#005186;}
+    </style>
+
+    <link rel="alternate" hreflang="en" href="https://ilge.eu/en/" />
+    <link rel="alternate" hreflang="fr" href="https://ilge.eu/fr/" />
+    <link rel="alternate" hreflang="de" href="https://ilge.eu/de/" />
+    <link rel="shortcut icon" href="pimg/favicon.png">
+
+  </head>
+
+  <body>
+
+    <!-- NAVIGATION MENU -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 m-0" style="z-index:999"> <!-- id = "fixed-top" -->
+            <div class="mx-auto d-lg-flex d-block flex-lg-nowrap"> <!-- mx-auto d-sm-flex d-block flex-sm-nowrap -->
+              <!-- <div class="navbar-header"> -->
+                <a class="navbar-brand pt-4 pb-4 mt-1" href="https://ilge.eu/"><img src="pimg/logo-ilge.png" class="img-fluid" alt="ILGE" /></a>
+              <!-- </div> -->
+                <!-- Responsive navigation bar on mobile devices -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- End of Responsive navigation bar on mobile devices -->
+                <!-- MENU -->
+                <div class="collapse navbar-collapse align-self-start" id="navbarsExample11">
+
+                  <span class="d-none d-lg-block">
+                    <ul class="nav navbar-nav text-center">
+                      <li class="nav-item"><a href="test.html">Home</a></li>
+                      <li class="nav-item"><a href="test2.html">Over ILGE</a></li>
+                      <li class="nav-item"><a href="test3.html">Abonnementenbeheer</a></li>
+                      <li class="nav-item active"><a href="test4.html">Branchespecialist</a></li>
+                      <li class="nav-item"><a href="test6.html">Referenties</a></li>
+                      <li class="nav-item"><a href="test3.html">Contact</a></li>
+                    </ul>
+                  </span>
+
+                  <!-- Start: Bu alan Burger Menu Olunca Gorunecek -->
+                  <span class="d-lg-none">
+                    <ul class="navbar-nav text-right">
+                      <li class="nav-item p-1"><a href="test.html">Home</a></li>
+                      <li class="nav-item p-1"><a href="test2.html">Over ILGE</a></li>
+                      <li class="nav-item p-1"><a href="test3.html">Abonnementenbeheer</a></li>
+                      <li class="nav-item p-1 active"><a href="test4.html">Branchespecialist</a></li>
+                      <li class="nav-item p-1"><a href="test6.html">Referenties</a></li>
+                      <li class="nav-item p-1"><a href="test3.html">Contact</a></li>
+                      <li class="nav-item p-1"><a href="test5.html">Inloggen</a></li>
+                        <li class="nav-item p-1">
+                          <a href="https://ilge.eu/fr/"><img src="pimg/flags/fr.png" class="m-1" height="12" alt="fr" width="18" /></a>
+                          <a href="https://ilge.eu/en/"><img src="pimg/flags/en.png" class="m-1" height="12" alt="en" width="18" /></a>
+                          <a href="https://ilge.eu/de/"><img src="pimg/flags/de.png" class="m-1" height="12" alt="de" width="18" /></a>
+                        </li>
+                    </ul>
+                  </span>
+                  <!-- End: Bu alan Burger Menu Olunca Gorunecek -->
+
+                </div>
+                <!-- MENU sonu -->
+                <!-- login -->
+                <div id="login-holder" class="collapse navbar-collapse align-self-start">
+                      <a href="javascript:;" class="" id="login-link"><span></span>Inloggen</a>
+                      <div class="the-form"><div class="pointer"></div>
+                          <form id="login" class="active" action="https://ilge.eu/" method="post" parsley-validate>
+                          <h3>Login op ILGE Portal</h3>
+                          <input type="hidden" name="mod" value="account">
+                          <input type="hidden" name="lang" value="nl">
+                          <input type="hidden" name="do" value="login">
+                          <input type="hidden" name="r" value="">
+                          <div class="form-field">
+                          <input parsley-required="true" parsley-trigger="focusin focusout keyup" type="text" name="useremail" value="" id="useremail" placeholder="E-mail/ID">
+                          </div>
+                          <div class="form-field submit">
+                          <input parsley-required="true" parsley-trigger="focusin focusout keyup" type="password" name="userpassword" value="" id="userpassword" placeholder="Wachtwoord">
+                          <input type="submit" name="login" value="&nbsp;">
+                          </div>
+                          <div id="extras"><a id="lostpw" href="javascript:;">ww vergeten?</a></div>
+                          </form>
+                                <form id="forgot" class="" action="https://ilge.eu/" method="post" parsley-validate>
+                                <h3>Vul alstublieft uw e-mailadres in om een nieuw wachtwoord te ontvangen:</h3>
+                                <input type="hidden" name="mod" value="account">
+                                <input type="hidden" name="lang" value="nl">
+                                <input type="hidden" name="do" value="forget">
+                                <div class="form-field submit">
+                                <input parsley-required="true" parsley-type="email" parsley-trigger="focusin focusout keyup" type="email" name="email" value="" id="email" placeholder="E-mail">
+                                <input type="submit" name="submit" value="&nbsp;">
+                                </div>
+                                </form>
+                      </div>
+                </div>
+                <!-- login sonu -->
+
+                <!-- languages -->
+                <div id="lang-selector" class="collapse navbar-collapse align-self-start pt-4">
+
+                    <div class="dropdown">
+                      <div class="current">
+                        <div class="pointer" style="margin:3px"></div></div>
+                        <a href="#" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="pimg/flags/nl.png" class="border" style="padding: 2px" alt="nl"/></a>
+                      <div class="dropdown-menu border-0 pl-1" aria-labelledby="dropdownMenuOffset">
+                        <a href="https://ilge.eu/fr/"><img src="pimg/flags/fr.png" height="12" alt="fr" width="18" /></a>
+                        <a href="https://ilge.eu/en/"><img src="pimg/flags/en.png" height="12" alt="en" width="18" /></a>
+                        <a href="https://ilge.eu/de/"><img src="pimg/flags/de.png" height="12" alt="de" width="18" /></a>
+                      </div>
+                    </div>
+
+                </div>
+                <!-- languages sonu -->
+            </div>
+        </nav>
+    <!-- NAVIGATION MENU SONU -->
+
+
+  <!-- Begin of Container -->
+  <div class="container-fluid">
+
+    <div id="message-bar" class="row col-12 justify-content-center text-primary"></div>
+
+    <!-- SAYFA STATIC GORSEL ALANI -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-9 d-none d-md-block">
+        <div id="page-top" style="z-index:1">
+          <div class="aligner" style="background: url('https://ilge.eu/pimg/slide5.jpg') no-repeat left bottom;">
+            <div class="h1"><span class="lblue">Nieuws &amp;</span><br />
+            <span class="dblue">actualiteiten</span></div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-- SAYFA STATIC GORSEL ALANI -->
+
+
+    <!-- UST ICERIK ALANI -->
+    <div class="row">
+    <div class="col-12" style="background-color:#0070ba;">
+    <div class="row justify-content-center">
+
+      <div class="col-8 col-sm-6 d-none d-lg-block"> <!-- ust sol taraf: col-8 -->
+        <div class="row justify-content-start">
+
+          <div class="col-12 col-sm-12 text-white p-2">
+            <h1><strong>Nieuws, nieuwe titels en ontwikkelingen in de branche</strong></h1>
+          </div>
+
+        </div>
+      </div> <!-- ust sol taraf sonu: col-8 -->
+
+      <!-- ############## RESPONSIVE UST SOL ##############  -->
+      <div class="col-sm-12 d-lg-none"> <!-- ust sol taraf: col-8 -->
+        <div class="row justify-content-center">
+
+          <div class="col-sm-8 text-white p-0 m-0">
+            <h1><strong>Nieuws, nieuwe titels en ontwikkelingen in de branche</strong></h1>
+          </div>
+
+        </div>
+      </div> <!-- ust sol taraf sonu: col-8 -->
+      <!-- ############## RESPONSIVE UST SOL SONU ##############  -->
+
+      <div class="col-4 col-sm-3 d-none d-lg-block" style="background-color:#005186;"> <!-- ust sag taraf: col-4 -->
+        <div class="row justify-content-start">
+
+          <div class="col-8 col-sm-11 text-white p-3">
+
+          </div>
+
+        </div>
+      </div> <!-- ust sag taraf sonu: col-4 -->
+
+      <!-- ############## RESPONSIVE UST SAG ##############  -->
+      <div class="col-sm-12 d-lg-none" style="background-color:#005186;"> <!-- ust sag taraf: col-4 -->
+        <div class="row justify-content-center">
+
+          <div class="col-sm-8 text-white p-0">
+
+          </div>
+
+        </div>
+      </div> <!-- ust sag taraf sonu: col-4 -->
+      <!-- ############## RESPONSIVE UST SAG SONU ############## -->
+
+    </div>
+    </div>
+    </div>
+    <!-- UST ICERIK ALANI SONU -->
+
+    <!-- ALT ICERIK ALANI -->
+    <div class="row">
+    <div id="" class="col-12 bg-white">
+    <div class="row justify-content-center">
+
+      <div class="col-8 col-sm-6 pt-5 d-none d-lg-block"> <!-- alt sol taraf: col-8 -->
+        <div class="row justify-content-end">
+
+          <div class="col-12 col-sm-12">
+              <p><img src="https://ilge.eu/images/spotlight/DeTijd062018nl200.jpg" style="float:left; padding-right:5px; padding-bottom:5px; width:200px;">
+              Dankzij De Tijd en L’Echo blijven uw management en medewerkers op de hoogte van de laatste marktontwikkelingen en van de financiële gezondheid <br>
+              van klanten en leveranciers. <br>
+              <br>
+              <br>
+              <strong style="&quot;color:#005186;&quot;">Een abonnement op maat van uw organisatie:</strong><br>
+              <br>
+              <br>
+              • Keuze uit De Tijd, L’Echo of een combinatie<br>
+              <br>
+              • Een mix van digitale en papieren abonnementen<br>
+              <br>
+              • Extra voordelig tarief voor bedrijven en instituties<br>
+              <br>
+              <br>
+              </p>
+          </div>
+
+          </div>
+      </div> <!-- alt sol taraf sonu: col-8 -->
+
+      <!-- ############## RESPONSIVE ALT SOL ###################  -->
+      <div class="col-sm-12 pt-5 d-lg-none"> <!-- alt sol taraf: col-8 -->
+        <div class="row justify-content-end">
+
+          <div class="col-sm-12 pb-4">
+                <p><img src="https://ilge.eu/images/spotlight/DeTijd062018nl200.jpg" style="float:left; padding-right:5px; padding-bottom:5px; width:200px;">
+                Dankzij De Tijd en L’Echo blijven uw management en medewerkers op de hoogte van de laatste marktontwikkelingen en van de financiële gezondheid <br>
+                van klanten en leveranciers. <br>
+                <br>
+                <br>
+                <strong style="&quot;color:#005186;&quot;">Een abonnement op maat van uw organisatie:</strong><br>
+                <br>
+                <br>
+                • Keuze uit De Tijd, L’Echo of een combinatie<br>
+                <br>
+                • Een mix van digitale en papieren abonnementen<br>
+                <br>
+                • Extra voordelig tarief voor bedrijven en instituties<br>
+                <br>
+                <br>
+                </p>
+          </div>
+
+        </div>
+      </div> <!-- alt sol taraf sonu: col-8 -->
+      <!-- ############## RESPONSIVE ALT SOL SONU ###################  -->
+
+      <div class="col-4 col-sm-3 pt-5 pl-4 d-none d-lg-block" style="background-color:#f0f1f5"> <!-- alt sag taraf: col-4 -->
+        <div class="row justify-content-start">
+          <div class="col-8 col-sm-11 pl-4">
+            <ul id="btns">
+              <li><a href="https://ilge.eu/contact">
+                <span class="icon phone"></span><span class="text-nowrap">+31 020 644 1842</span>
+                </a>
+              </li>
+              <li><a href="https://ilge.eu/contact">
+                <span class="icon info"></span><span class="text-nowrap">Meer informatie?</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-start align-items-end" style="min-height:200px;">
+          <div class="col-12 pt-5 pl-4">
+            <a href="https://peppol.eu/who-is-who/peppol-certified-aps/" target="_blank">
+              <img src="pimg/PEPPOLAccessPoint.png" alt="Certified PEPPOL Access Point (AP)" class="img-fluid" /></a>
+            <img src="pimg/ref/logo-biblionef.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div> <!-- alt sag taraf sonu: col-4 -->
+
+      <!-- ############## RESPONSIVE ALT SAG ###################  -->
+      <div class="col-sm-12 pt-3 d-lg-none" style="background-color:#f0f1f5"> <!-- alt sag taraf: col-4 -->
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <ul id="btns">
+              <li><a href="https://ilge.eu/contact">
+                <span class="icon phone"></span><span class="text-nowrap">+31 020 644 1842</span>
+                </a>
+              </li>
+              <li><a href="https://ilge.eu/contact">
+                <span class="icon info"></span><span class="text-nowrap">Meer informatie?</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-5 pb-2">
+              <a href="https://peppol.eu/who-is-who/peppol-certified-aps/" target="_blank">
+              <img src="pimg/PEPPOLAccessPoint.png" alt="Certified PEPPOL Access Point (AP)" class="img-fluid" /></a>
+              <br><img src="pimg/ref/logo-biblionef.png" alt="" class="img-fluid" />
+          </div>
+      </div>
+      </div> <!-- alt sag taraf sonu: col-4 -->
+      <!-- ############## RESPONSIVE ALT SAG SONU ##############  -->
+
+    </div>
+    </div>
+    </div>
+    <!-- ALT ICERIK ALANI SONU -->
+
+    <!-- FOOTER ALANI -->
+    <div class="row">
+      <div id="" class="col-12 pt-2 pb-5 border-top bg-white">
+        <div class="row justify-content-center">
+          <p class="developed-by">Copyright &copy; ILGE 2018</p>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER ALANI SONU -->
+
+  </div>
+  <!-- End of Container -->
+
+
+    <!-- JavaScript Normal -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="bs4_js/bootstrap.min.js"></script>
+
+    <!-- ILGE JavaScript -->
+    <script type='text/javascript' src='pjs/jquery/jquery.js?ver=1.11.2'></script>
+    <script type='text/javascript' src='pjs/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='pjs/functions.js?ver=1.0'></script>
+    <!-- <script type='text/javascript' src='pjs/jquery.carouFredSel-6.2.1-packed.js?ver=1.0'></script>
+    <script type='text/javascript' src='pjs/carousel.js?ver=1.0'></script> -->
+
+    <!-- Javascript for Login Box -->
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+            jQuery("#lostpw").click( function(){
+                jQuery("#forgot").addClass("active");
+                jQuery("#login").removeClass("active");
+            });
+      });
+    </script>
+
+
+  </body>
+</html>
